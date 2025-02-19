@@ -40,6 +40,8 @@ wallendar.generate()
 
 ## Customization
 
+### Options
+
 To fit your needs, Wallendar offers a variety of customization options. You can change the font, the color, the position, and much more.
 
 | Option              | Default                    | Description                                                                    |
@@ -55,6 +57,19 @@ To fit your needs, Wallendar offers a variety of customization options. You can 
 | `highlight()`       | []                         | a list of days to highlight, e.g. [1, 15, 31]                                  |
 | `highlight_color()` | (221, 72, 20)              | The color of the highlighted days, as RGB tuple                                |
 | `header_color()`    | same as `font_color()`     | The color of the header                                                        |
+
+### Example
+
+As an example, let's create the wallpaper from the example above:
+
+```python
+wallendar = Wallendar(
+    wallpaper_path="path/to/your/wallpaper.jpg",
+    output_path="path/to/save/your/new/wallpaper.jpg",
+)
+
+wallendar.highlight_color((221, 72, 20)).highlight([3, 8, 15, 23, 28]).offset_x(-600).generate()
+```
 
 ## License
 
