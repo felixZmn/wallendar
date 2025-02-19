@@ -182,5 +182,4 @@ class Wallendar:
                         draw.text((x, y), str(day),
                                   fill=self._font_color, font=font)
 
-        # self._img.save(self._target_path)
-        self._img.show()
+        self._img.save(self._target_path)

@@ -55,3 +55,7 @@ To fit your needs, Wallendar offers a variety of customization options. You can 
 | `highlight()`       | []                         | a list of days to highlight, e.g. [1, 15, 31]                                  |
 | `highlight_color()` | (221, 72, 20)              | The color of the highlighted days, as RGB tuple                                |
 | `header_color()`    | same as `font_color()`     | The color of the header                                                        |
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
